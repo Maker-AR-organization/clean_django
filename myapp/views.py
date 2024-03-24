@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from django.http import HttpResponse, JsonResponse
 from myapp.models import Data, SmokeData, BoxData, EggData, ToyData, FoodData, MedicineData, BatteryData, FruitData
 
-
+# 11111
 # 目标检测接口
 class Mubiao_AppReq(APIView):
     def get(self, request):
